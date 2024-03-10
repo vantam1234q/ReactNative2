@@ -4,11 +4,12 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import Lab1Screen from "./src/lab/lab1/lab1_home";
-import Bai1 from "./src/lab/lab1/bai1/bai1";
-import Bai2 from "./src/lab/lab1/bai2";
+
 
 // import Student from './components/student';
 import Bai3Lab1 from './src/lab/lab1/bai3/index';
+import Bai1 from "./src/lab/lab1/bai1/bai1";
+import Bai2 from "./src/lab/lab1/bai2";
 
 const Stack = createNativeStackNavigator();
 
