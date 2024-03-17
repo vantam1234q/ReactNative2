@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 // SectionView.js
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
@@ -32,7 +31,7 @@ const styles = StyleSheet.create({
   container: {
     padding: 10,
     backgroundColor: "#ffffff",
-    marginBottom: 10,
+    marginTop: -150,
     borderRadius: 20,
   },
   nutBam: {
@@ -67,10 +66,11 @@ const styles = StyleSheet.create({
   },
 
   cardTitle: {
-    fontSize: 16,
+    fontSize: 15,
     fontWeight: "bold",
     marginBottom: 5,
     marginTop: 2,
+    marginBottom: 16,
   },
   image: {
     width: "100%",

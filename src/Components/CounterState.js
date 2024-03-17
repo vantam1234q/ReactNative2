@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import  {Button, Text, View} from "react-native";
 import  {useState} from "react";
 
@@ -16,3 +15,4 @@ export default function CounterState(){
         </View>
     )
 }
+

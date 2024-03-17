@@ -1,5 +1,4 @@
-/* eslint-disable prettier/prettier */
-import { Image, StyleSheet, Text, View } from "react-native";
+import { Image, View } from "react-native";
 import React from "react";
 import styles from "./style";
 const index = ({ uri_img, title }) => {

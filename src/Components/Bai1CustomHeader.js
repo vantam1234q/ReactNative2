@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 // Bai1CustomHeader.js
 
 import React from 'react';

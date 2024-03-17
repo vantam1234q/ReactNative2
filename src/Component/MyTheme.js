@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import React, { createContext, useState, useContext } from "react";
 
 const ThemeContext = createContext(); // khởi tạo context cho theme

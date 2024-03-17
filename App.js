@@ -1,20 +1,27 @@
 /* eslint-disable prettier/prettier */
-import React from "react";
+
+import { StyleSheet, Text, View,TouchableOpacity } from 'react-native';
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
-import Lab1Screen from "./src/lab/lab1/lab1_home";
 
-
-// import Student from './components/student';
-import Bai3Lab1 from './src/lab/lab1/bai3/index';
-import Bai1 from "./src/lab/lab1/bai1/bai1";
-import Bai2 from "./src/lab/lab1/bai2";
+import Lab1Screen from './src/Lab/Lab1/lab1Home';
+import Bai1 from '../ReactNative/src/Lab/Lab1/Bai1/bai1';
+import Bai2 from '../ReactNative/src/Lab/Lab1/bai2/index';
+import Bai3Lab1 from '../ReactNative/src/Lab/Lab1/Bai3/index';
 
 const Stack = createNativeStackNavigator();
 
+
 const App = () => {
   return (
+    // <View style={styles.container}>
+    //   <Student name="Nguyen Van Tam" address="Quang Binh" phone="9999"></Student>
+    //   <Student name="Nguyen Van Tam1" address="Quang Binh" phone="9999"></Student>
+    //   <Student name="Nguyen Van Tam2" phone="9999"></Student>
+    //   <Student name="Nguyen Thanh Binh3" address="Quang Binh" phone="9999"></Student>
+    // </View>
+    // Lab1
+
     <NavigationContainer>
     <Stack.Navigator initialRouteName="Menu">
       <Stack.Screen
@@ -140,28 +147,5 @@ screenText: {
 },
 });
 
-export default App;
-    // <View style={styles.container}>
-    //   <Student name="Haold1" phone="0346259202" address="Da Nang"/>
-    //   <Student name="Haold2" phone="0346259202" address="Da Nang"/>
-    //   <Student name="Haold3" phone="0346259202" address="Da Nang"/>
-    //   <Student name="Haold4" phone="0346259202" address="Da Nang"/>
-    //   <Student name="Haold5" phone="0346259202" address="Da Nang"/>
-    //   <StatusBar style="auto" />
-    //   <Text>Lam Di Hao</Text>
-    // </View>
-    // <Bai1/>
-    // <CounterState/>
-//     <Time/>
 
-//   );
-// };
-// export default App;
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: '#fff',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//   },
-//   });
+export default App;

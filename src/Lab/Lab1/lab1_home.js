@@ -1,11 +1,10 @@
-/* eslint-disable prettier/prettier */
 import React from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 
 const Lab1Screen = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Lab 1 Screen</Text>
+      <Text style={styles.title}>Lab 1 CRO102</Text>
       <View style={styles.menuContainer}>
         <TouchableOpacity
           style={styles.menuItem}

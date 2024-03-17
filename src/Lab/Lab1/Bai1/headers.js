@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 // CustomHeader.js
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity, Image } from "react-native";

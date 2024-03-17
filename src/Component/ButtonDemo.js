@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import React, { forwardRef } from "react";
 

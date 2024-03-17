@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import CustomHeader from "./headers";
@@ -20,4 +19,4 @@ const styles = StyleSheet.create({
     flex: 1,
     marginTop: 50,
   },
-});
+});45
