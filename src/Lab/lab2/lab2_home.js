@@ -16,6 +16,12 @@ const Lab2Screen = ({ navigation }) => {
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.menuItem}
+          onPress={() => navigation.navigate("Lab2React")}
+        >
+          <Text style={styles.menuText}>Lab2</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.menuItem}
           onPress={() => navigation.navigate("countDown")}
         >
           <Text style={styles.menuText}>CountDown</Text>
